@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ARN.#####",
+ "creation": "2024-11-27 11:23:25.769318",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "article",
+  "column_break_jasz",
+  "current_quantity",
+  "column_break_yyke",
+  "new_quantity",
+  "section_break_lzjb",
+  "total_quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "label": "article",
+   "options": "article"
+  },
+  {
+   "fieldname": "column_break_jasz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_quantity",
+   "fieldtype": "Int",
+   "label": "current quantity"
+  },
+  {
+   "fieldname": "column_break_yyke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_quantity",
+   "fieldtype": "Int",
+   "label": "new quantity"
+  },
+  {
+   "fieldname": "section_break_lzjb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_quantity",
+   "fieldtype": "Int",
+   "label": "total quantity",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-27 11:36:34.227433",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Quantity of Article Available",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
