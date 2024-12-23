@@ -144,6 +144,13 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Sales Order": {
+        "after_insert": "library_management.library_management.custom_script.sales_order.create_todo_entry"
+    }
+}
+
+
 
 # Scheduled Tasks
 # ---------------

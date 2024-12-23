@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-19 12:46:57.772433",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "column_break_onju",
+  "price",
+  "section_break_htuo",
+  "standared_selling",
+  "wholesale_rate",
+  "column_break_rmyx",
+  "previous_standared_selling",
+  "column_break_tcnz",
+  "previous_wholesale_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_onju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "section_break_htuo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "wholesale_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Wholesale Rate"
+  },
+  {
+   "fieldname": "standared_selling",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Standared Selling"
+  },
+  {
+   "fieldname": "column_break_rmyx",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_tcnz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "previous_standared_selling",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "previous_standared_selling"
+  },
+  {
+   "fieldname": "previous_wholesale_rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "previous_wholesale_rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-23 14:59:42.112938",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Item Price Update",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
